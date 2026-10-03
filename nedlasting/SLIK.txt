@@ -1,0 +1,18 @@
+Nøktern-prosjektet er delt i seks deler fordi filen er 477 MB.
+
+Last ned alle seks:
+Noktern-prosjekt.zip.00
+Noktern-prosjekt.zip.01
+Noktern-prosjekt.zip.02
+Noktern-prosjekt.zip.03
+Noktern-prosjekt.zip.04
+Noktern-prosjekt.zip.05
+
+Mac eller Linux, i mappen der filene ligger:
+cat Noktern-prosjekt.zip.00 Noktern-prosjekt.zip.01 Noktern-prosjekt.zip.02 Noktern-prosjekt.zip.03 Noktern-prosjekt.zip.04 Noktern-prosjekt.zip.05 > Noktern-prosjekt.zip
+unzip Noktern-prosjekt.zip
+
+Windows, i ledetekst i samme mappe:
+copy /b Noktern-prosjekt.zip.00+Noktern-prosjekt.zip.01+Noktern-prosjekt.zip.02+Noktern-prosjekt.zip.03+Noktern-prosjekt.zip.04+Noktern-prosjekt.zip.05 Noktern-prosjekt.zip
+
+Zipen inneholder kildekoden og alle drikkebildene. node_modules er ikke med. Kjør npm install etter utpakking.
